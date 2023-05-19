@@ -1,0 +1,22 @@
+#MAXIMO DE 3 NUMEROS
+#Si a> b > c entonces b> c y a > c
+
+def max_de_tres(num1, num2, num3):
+    if num1 > num2:
+        print(num1)
+    elif num1 > num3:
+        print(num1)
+    elif num2 > num3:
+        print(num2)
+    else:
+        print(num3)
+
+
+print("Ingresa un numero: ")
+num1 = input()
+print("Ingresa un numero: ")
+num2 = input()
+print("Ingresa un numero: ")
+num3 = input()
+
+max_de_tres(num1, num2, num3)
